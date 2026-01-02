@@ -1,0 +1,29 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "razoom.show_tags",
+	"name": "Show Tags",
+	"version": "v1.0.0",
+	"developer": "RaZooM",
+	"description": "",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"settings": {
+		"col-1": {
+			"type": "rgb",
+			"name": "Color for text inputs",
+			"default": [0,0,255]
+		},
+		"col-2": {
+			"type": "rgb",
+			"name": "Color for togglers",
+			"default": [255,255,0]
+		}
+	}
+}
